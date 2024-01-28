@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your car brand"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ferrari"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp" />
+
+    <CheckBox
+        android:id="@+id/ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMW"
+        android:textSize="20dp"
+        android:layout_below="@+id/ch1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="90dp" />
+
+    <CheckBox
+        android:id="@+id/ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="McLaren"
+        android:textSize="20dp"
+        android:layout_below="@+id/ch2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="90dp" />
+
+    <CheckBox
+        android:id="@+id/ch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodge Challenger"
+        android:textSize="20dp"
+        android:layout_below="@+id/ch3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="90dp" />
+
+    <CheckBox
+        android:id="@+id/ch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lamborghini "
+        android:textSize="20dp"
+        android:layout_below="@+id/ch4"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="90dp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textSize="20dp"
+        android:layout_below="@+id/ch5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp" />
+
+</RelativeLayout>
